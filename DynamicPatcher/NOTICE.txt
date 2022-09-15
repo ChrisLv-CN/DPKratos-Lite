@@ -1,0 +1,44 @@
+这是Kratos Build 8的包。
+This is package of Kratos Build 8.
+
+Build8与之前的版本不同，由于更新了DP2.1，你必须完全删除文件夹"DynamicPatcher"，再添加本包。
+Build8 is different from the previous version. Due to the updated DP2.1, you must completely delete the folder "DynamicPatcher", and then add this package.
+
+必须完全删除文件夹"DynamicPatcher"，再添加本包。
+You must completely delete the folder "DynamicPatcher", and then add this package.
+
+必须完全删除文件夹"DynamicPatcher"，再添加本包。
+You must completely delete the folder "DynamicPatcher", and then add this package.
+
+必须完全删除文件夹"DynamicPatcher"，再添加本包。
+You must completely delete the folder "DynamicPatcher", and then add this package.
+
+
+附带的 pips.shp 和 pipsnum.shp 和 pipstext.shp 这两个文件是为新功能 显示血量 和 显示伤害 和 显示伤害响应 准备的。
+The 'pips.shp' and 'pipsnum.shp' and 'pipstext.shp' These two files for new features 'Display Health Number' and 'Display Damage Number' and 'Display Damage Reaction'.
+
+下面是使用方法：
+There is how to use:
+
+shp文件的帧顺序分别是 0123456789+-*/% 共 15 帧。
+The frame order of the shp file is 0123456789+-*/% for a total of 15 frames.
+
+"pips.shp" 为默认设置使用的shp文件，第24帧 到 第68帧 分别为 绿色、黄色、红色 血量的显示数字。
+"pips.shp" is the SHP file used by default settings, and the 24th frames to 68th frames are green, yellow, red blood volume display numbers.
+
+只需要在[AudioVisual]下添加 HealthText.UseSHP=yes 即可使用。
+Just add HealthText.UseSHP=yes under [AudioVisual] to use.
+
+"pipsnum.shp" 则是独立的数字 shp，第0-14帧为绿色，第15-29为黄色，第30-44帧为红色。使用参数如下：
+"pipsnum.shp" is an independent number shp, frames 0-14 are green, frames 15-29 are yellow, and frames 30-44 are red. The parameters used are as follows:
+
+[AudioVisual]
+HealthText.UseSHP=yes
+HealthText.SHP=pipsnum.shp
+HealthText.ImageSize=5,8
+HealthText.Green.ZeroFrameIndex=0
+HealthText.Yellow.ZeroFrameIndex=15
+HealthText.Red.ZeroFrameIndex=30
+
+伤害数字设置方式相同。
+Damage numbers are set the same way.
