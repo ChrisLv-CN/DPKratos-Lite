@@ -20,7 +20,6 @@
 {DP_DIR}\Build\ExtensionHooks\TechnoTypeExt.tmp
 {DP_DIR}\Build\ExtensionHooks\WarheadTypeExt.tmp
 {DP_DIR}\Build\ExtensionHooks\WeaponTypeExt.tmp
-{DP_DIR}\Build\FXHooks\FXEngineHooks.tmp
 {DP_DIR}\Build\GeneralHooks\General.tmp
 {DP_DIR}\Build\GeneralHooks\GScreenExt.tmp
 {DP_DIR}\Build\GeneralHooks\PointerExpire.tmp
