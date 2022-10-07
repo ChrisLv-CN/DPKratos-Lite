@@ -9,13 +9,12 @@
     "System.Numerics.dll",
 
     "DynamicPatcher\\Libraries\\System.Runtime.CompilerServices.Unsafe.dll",
+    "DynamicPatcher\\Libraries\\Newtonsoft.Json.dll",
     "DynamicPatcher\\Libraries\\PatcherYRpp.dll",
     "DynamicPatcher\\Libraries\\PatcherYRpp.Utilities.dll",
-    "DynamicPatcher\\Libraries\\ScriptUniversal.dll",
     "DynamicPatcher\\Libraries\\Extension.dll",
     "DynamicPatcher\\Libraries\\Extension.Ext.dll",
     "DynamicPatcher\\Libraries\\Extension.Script.dll",
-    "DynamicPatcher\\Libraries\\Extension.FX.dll",
     "DynamicPatcher\\Libraries\\Extension.Kratos.dll",
 
     "Microsoft.VisualStudio.Interop.dll"
@@ -36,5 +35,11 @@
   "emit_pdb": true,
   "force_compile": false,
   "pack_assembly": true,
-  "optimization_level": "debug"
+  "optimization_level": "debug",
+  "realtime_ignore": [
+    "ra2md.ini",
+    "reshade.ini",
+    "DefaultPreset.ini",
+    "ddraw.ini"
+  ]
 }
