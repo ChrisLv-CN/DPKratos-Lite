@@ -1,8 +1,11 @@
-这是Kratos Build 8的包。
-This is package of Kratos Build 8.
+原 Kratos Build8 现更名为 Kraots-Lite。
+The original Kratos Build8 is now rename as Kraots-Lite.
 
-Build8与之前的版本不同，由于更新了DP2.1，你必须完全删除文件夹"DynamicPatcher"，再添加本包。
-Build8 is different from the previous version. Due to the updated DP2.1, you must completely delete the folder "DynamicPatcher", and then add this package.
+新版本将深度结合DP2.1的框架结构，对代码进行完全重构，想比之前的版本，具有更轻量、更快的速度、更便捷的更新机制。
+The new version will deeply combine the framework structure of DP2.1, completely refactor the code, and have a lighter, faster and more convenient update mechanism than the previous version.
+
+Kraots-Lite与之前的版本不同，由于更新了DP2.1，你必须完全删除文件夹"DynamicPatcher"，再添加本包。
+Kraots-Lite is different from the previous version. Due to the updated DP2.1, you must completely delete the folder "DynamicPatcher", and then add this package.
 
 必须完全删除文件夹"DynamicPatcher"，再添加本包。
 You must completely delete the folder "DynamicPatcher", and then add this package.
