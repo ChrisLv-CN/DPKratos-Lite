@@ -18,6 +18,7 @@
 {DP_DIR}\Build\ExtensionHooks\SuperWeaponTypeExt.tmp
 {DP_DIR}\Build\ExtensionHooks\TechnoExt.tmp
 {DP_DIR}\Build\ExtensionHooks\TechnoTypeExt.tmp
+{DP_DIR}\Build\ExtensionHooks\TerrainExt.tmp
 {DP_DIR}\Build\ExtensionHooks\WarheadTypeExt.tmp
 {DP_DIR}\Build\ExtensionHooks\WeaponTypeExt.tmp
 {DP_DIR}\Build\GeneralHooks\General.tmp
