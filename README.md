@@ -85,8 +85,8 @@ Install and start Kratos correctly to ensure that Kratos operates normally.
 2. 从[源代码项目](https://github.com/ChrisLv-CN/DPKratos-Lite-Source)中获取Debug版本的`DynamicPatcher.dll`，替换。  
 Get the Debug version of `DynamicPatcher.dll` from the [source code project](https://github.com/ChrisLv-CN/DPKratos-Lite-Source) and replace it.
 
-3. 在文件夹`DynamicPatcher`下创建文件夹`Scripts`，并将写好的.cs脚本文件放进去。  
-Create the folder 'Scripts' under the folder' DynamicPatcher 'and put the written. cs script file in it.
+3. 在文件夹`DynamicPatcher`下创建文件夹`Scripts`，并将写好的`.cs`脚本文件放进去。  
+Create the folder 'Scripts' under the folder' DynamicPatcher 'and put the written `.cs` script file in it.
 
 4. 启动游戏。  
 Run.
