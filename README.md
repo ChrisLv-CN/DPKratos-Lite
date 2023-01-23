@@ -69,5 +69,30 @@ If you like this project and want to fund it, here's how you can do it.
 * 微信 - [Wechat](https://github.com/ChrisLv-CN/YRDynamicPatcher-Kratos/blob/main/Images/wechat.jpg)
 * 爱发电 - [Afdian](https://afdian.net/@chrislv)
 
+如何使用脚本（How to use a Script）
+------------
+1. 将编译好的脚本对应的`.pkg`文件放入`DynamicPatcher\Packages\Build\Scripts`。  
+Put the `.pkg` file corresponding to the compiled script into `DynamicPatcher\Packages\Build\Scripts`.
 
+2. 使用文本编辑器编辑`DynamicPatcher\Packages`下的`release.list`文件，在末行加入`{DP_DIR}\Build\Scripts\***.tmp`，`***`为脚本.pkg的文件名。  
+Use a text editor to edit the `release.list` file in folder `DynamicPatcher\Packages`, and add `{DP_DIR}\Build\Scripts\***.tmp` in the last line. `***` is the file name of the script file of `.pkg`.
 
+3. 启动游戏。  
+Run.
+
+如何编译脚本（How to compile Scripts)
+------------
+1. 正确安装并启动Kratos，确保Kratos运行正常。  
+Install and start Kratos correctly to ensure that Kratos operates normally.
+
+2. 从[源代码项目](https://github.com/ChrisLv-CN/DPKratos-Lite-Source)中获取Debug版本的`DynamicPatcher.dll`，替换。  
+Get the Debug version of `DynamicPatcher.dll` from the [source code project](https://github.com/ChrisLv-CN/DPKratos-Lite-Source) and replace it.
+
+3. 在文件夹`DynamicPatcher`下创建文件夹`Scripts`，并将写好的`.cs`脚本文件放进去。  
+Create the folder 'Scripts' under the folder' DynamicPatcher 'and put the written `.cs` script file in it.
+
+4. 启动游戏。  
+Run.
+
+5. 在`DynamicPatcher\Packages\Build\Scripts`中获得编译并打包好的`.pkg`文件。  
+Get the compiled and packaged `.pkg` file in `DynamicPatcher\Packages\Build\Scripts`.
