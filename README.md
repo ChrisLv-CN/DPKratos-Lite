@@ -65,8 +65,8 @@ Run `RunAres.bat` to start the game.
 如果你喜欢本项目，并想通过资助来帮助本项目，可以通过以下方式。  
 If you like this project and want to fund it, here's how you can do it. 
 * PayPal - 12737@live.com
-* 支付宝 - [Alipay](https://github.com/ChrisLv-CN/YRDynamicPatcher-Kratos/blob/main/Images/alipay.jpg)
-* 微信 - [Wechat](https://github.com/ChrisLv-CN/YRDynamicPatcher-Kratos/blob/main/Images/wechat.jpg)
+* 支付宝 - [Alipay](https://github.com/ChrisLv-CN/DPKratos-Lite/blob/main/Images/alipay.jpg)
+* 微信 - [Wechat](https://github.com/ChrisLv-CN/DPKratos-Lite/blob/main/Images/wechat.jpg)
 * 爱发电 - [Afdian](https://afdian.net/@chrislv)
 
 如何使用脚本（How to use a Script）
